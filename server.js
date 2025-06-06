@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors({
-  origin: 'https://agendamento-online-front.vercel.app' // sem barra no final
+  origin: 'https://agendamento-online-front.vercel.app/' // sem barra no final
 }));
 app.use(express.json());
 
